@@ -63,10 +63,11 @@ $3 → Cake or Juice
 
 
 📉 Impact on Revenue Analysis:
-Total revenue (all items combined) is correct ✅
+Total revenue (all items combined) is correct 
 
 
-But item-level revenue (like “Which item sold most?”) is uncertain ❌ because we don’t know which of the $3 or $4 sales belong to which product.
+But item-level revenue (like “Which item sold most?”) is uncertain  because we don’t know which of the $3 or $4 sales belong to which product.
 
 
-👉 This means Cake might be the top seller OR Juice could be. Same with Sandwich vs Smoothie.
+
+ This means Cake might be the top seller OR Juice could be. Same with Sandwich vs Smoothie.
