@@ -1,11 +1,11 @@
-***Café Sales Data Cleaning & Preparation**
+**Café Sales Data Cleaning & Preparation**
 **Project Overview**
 
 This project involved cleaning and preparing a transactional dataset from a café for further exploratory data analysis (EDA). The dataset originally contained missing values, inconsistent records, and ambiguous item-price relationships. The objective was to build a reliable and structured dataset suitable for generating insights into sales performance, customer behavior, and operational efficiency.
 
-***Data Issues Identified**
+**Data Issues Identified**
 
-***Missing Values***: Null entries in Item, Price, Quantity, and Payment Method.
+**Missing Values**: Null entries in Item, Price, Quantity, and Payment Method.
 
 ****Inconsistent Records**: Total Spent column did not match Quantity × Price in several cases.
 
@@ -25,6 +25,7 @@ This project involved cleaning and preparing a transactional dataset from a caf�
 
 ***Row Validation*** – Removed invalid records where both Quantity and Price were missing.
 
-Item Popularity Check – Compared item sales across Price, Location, and Payment Method. Since values were very close across combinations, popularity could not be used reliably for imputations.
+***Item Popularity Check*** – Compared item sales across Price, Location, and Payment Method. Since values were very close across combinations, popularity could not be used reliably for imputations.
 
-Null Tracking in SQL – Used SQL queries to measure null counts before and after cleaning to validate improvements.
+***Null Tracking in SQL*** – Used SQL queries to measure null counts before and after cleaning to validate improvements.
+
