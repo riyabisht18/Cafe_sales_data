@@ -1,8 +1,9 @@
 📊 Cafe Data Analysis – EDA Project
-🔹 Project Overview
+
+## Project Overview
 This project analyzes 11 months of cafe sales data to uncover patterns in revenue, item performance, and customer behavior. The dataset was cleaned in SQL and later explored for insights.
 
-🔹 Key Insights
+## Key Insights
 Overall Performance
 
 
@@ -71,3 +72,4 @@ But item-level revenue (like “Which item sold most?”) is uncertain  because 
 
 
  This means Cake might be the top seller OR Juice could be. Same with Sandwich vs Smoothie.
+
