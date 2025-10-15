@@ -10,7 +10,7 @@ Overall Performance
 Total Sales (Revenue): $88,546
 
 
-Total Quantity Sold: 13,018 items
+Total Quantity Sold: 28,614
 
 
 Average Order Value (AOV): $8.92
@@ -72,4 +72,5 @@ But item-level revenue (like “Which item sold most?”) is uncertain  because 
 
 
  This means Cake might be the top seller OR Juice could be. Same with Sandwich vs Smoothie.
+
 
