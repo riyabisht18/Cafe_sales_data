@@ -26,5 +26,6 @@ $3 → Cake or Juice
 
 Item-level revenue is uncertain due to this, so total revenue is correct, but individual item revenue may vary.
 
- ![Image Alt]().
+ ![Image Alt](https://github.com/riyabisht18/Cafe_sales_data/blob/1b975640fa0178c2d95e24a031b604d41001531a/Cafe%20Sales%20Dashboard.png).
+
 
