@@ -25,3 +25,6 @@ $4 → Sandwich or Smoothie
 $3 → Cake or Juice
 
 Item-level revenue is uncertain due to this, so total revenue is correct, but individual item revenue may vary.
+
+ ![Image Alt]().
+
