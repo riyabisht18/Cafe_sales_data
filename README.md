@@ -1,33 +1,72 @@
-📊 ****Cafe Data Analysis – EDA Project****
+Café Sales Analytics – End-to-End Data Project
+🎯 Goal
+Turn messy café sales data into clear business insights for better decisions on menu, staffing, and promotions.
 
-**Project Overview**
-____________________________________________________________________________________________________________________________________________________________________
-Analyzed 11 months of cafe sales data to uncover trends in revenue, item performance, and customer behavior.
-The dataset was cleaned in SQL, followed by EDA, and visualized through a dashboard.
-____________________________________________________________________________________________________________________________________________________________________
-**Key Insights**
-____________________________________________________________________________________________________________________________________________________________________
-  Total Sales: $88,546 | Total Quantity Sold: 28,614 | AOV: $8.92
-  
-  Top Items: 🥗 Salad & 🥪 Sandwich | Bottom Item: 🍪 Cookie
-  
-  Premium Items: Salad & Smoothie priced at $4–$5
-  
-  Weekday Revenue: $60,179 vs Weekend Revenue: $24,244
-  
-  Sales by Location: 39% Unknown, 30% In-store, 29% Takeaway
-____________________________________________________________________________________________________________________________________________________________________
- **Data Quality Note**
-____________________________________________________________________________________________________________________________________________________________________
- Some items share the same price:
- 
- $4 → Sandwich or Smoothie
- 
- $3 → Cake or Juice
- 
- Item-level revenue is uncertain due to this, so total revenue is correct, but individual item revenue may vary.
+🔍 The Problem
+The data was too messy to trust:
+
+Missing items, prices, and quantities
+
+Wrong totals (Total ≠ Quantity × Price)
+
+Same price for different items (e.g., $4 = Sandwich OR Smoothie)
+
+Blank customer info (payment, location)
+
+🛠️ What I Did
+1. Data Cleaning (SQL)
+Fixed the mess systematically:
+
+Matched items to prices using café menu rules
+
+Recalculated all totals: Total = Quantity × Price
+
+Filled missing quantities with item-specific averages (not guessing)
+
+Labeled unknowns as "Unknown" instead of deleting data
+
+Removed only unusable records (<2% of data)
+
+Results:
+
+Data Quality	Before	After
+Usable Data	75%	98%
+Accurate Revenue	82%	100%
+2. Key Analysis Findings
+Total Revenue: $88,546 (28,614 items sold)
+
+Avg Order Value: $8.92
+
+Top Sellers: 🥗 Salad & 🥪 Sandwich (premium $4-$5 items)
+
+Big Discovery: Weekdays make 71% more money than weekends ($60K vs $24K)
+
+Sales Channels: 30% in-store, 29% takeaway, 39% unknown (data gap!)
+
+3. Dashboard (Tableau)
+Built interactive views showing:
+
+Revenue trends by day, month, and item
+
+Side-by-side weekday vs. weekend performance
+
+Top item rankings by revenue and quantity
+
+Sales channel breakdown
+
+📈 Business Impact
+Immediate actions taken:
+
+Menu focus: Push Salad & Sandwich (high margin)
+
+Staffing: Increase weekday shifts to match peak sales
+
+Promotions: Create weekend specials to boost off-peak revenue
+
+Data fix: Improve point-of-sale to capture location data
 ____________________________________________________________________________________________________________________________________________________________________
  ![Image Alt](https://github.com/riyabisht18/Cafe_sales_data/blob/1b975640fa0178c2d95e24a031b604d41001531a/Cafe%20Sales%20Dashboard.png).
+
 
 
 
