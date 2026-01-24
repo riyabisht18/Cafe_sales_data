@@ -33,7 +33,7 @@ Top Sellers: 🥗 Salad & 🥪 Sandwich (premium $4-$5 items)
 
 Big Discovery: Weekdays make 71% more money than weekends ($60K vs $24K)
 
-Sales Channels: 30% in-store, 29% takeaway, 39% unknown (data gap!)
+Sales Channels: 30% in-store, 30% takeaway, 40% unknown (data gap!)
 
 3. **Dashboard (Tableau)**
 Built interactive views showing:
@@ -58,6 +58,7 @@ Promotions: Create weekend specials to boost off-peak revenue
 Data fix: Improve point-of-sale to capture location data
 ____________________________________________________________________________________________________________________________________________________________________
  ![Image Alt](https://github.com/riyabisht18/Cafe_sales_data/blob/1b975640fa0178c2d95e24a031b604d41001531a/Cafe%20Sales%20Dashboard.png).
+
 
 
 
